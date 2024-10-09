@@ -87,6 +87,8 @@ possibly prerequisite to any initialization performed by the subclass. Therefore
 NOTE: If super( ) is not used in subclass' constructor, then the default or parameterless constructor of each superclass
 will be executed.
 
+why multiple inheritance is not possible in java?
+because if one class extending more than one classes and the two super classes have the same variables and different values.If we access the variable from the child class object, the child doesn't knows which variable of two super classes you are accessing. This leads to ambiguity. So , Multiple inheritance is not possible.
 
 Using final with Inheritance:
 
